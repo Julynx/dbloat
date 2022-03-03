@@ -8,7 +8,7 @@
 <br>
 
 ## Disclaimer
-The packages included for removal with this script have been deemed by the community to be **SAFE TO REMOVE**.
+The packages included for removal with this script have been deemed **SAFE TO REMOVE** by the community. 
 
 Still, keep in mind that removing system apps with ADB using this script or with other methods **may lead to data loss** and **render your device unbootable** if done incorrectly.
 
@@ -34,6 +34,8 @@ python3 dbloat.py
 <br>
 
 ## Advanced Features
-This script ships by default with options to remove MIUI Bloatware, Google Bloatware and more, mainly suitable for debloating Xiaomi smartphones.
+This script comes with options to remove MIUI Bloatware, Google Bloatware and more. The included files are mostly suited for debloating a Xiaomi phone, but you can add packages easily to the debloat lists or create a new one for your phone model.
 
-If you want to add packages to debloat, write the name of the packages line by line in a ```.txt``` file inside the ```dbloat``` directory and it will show up as an option the next time you execute the ```dbloat.py``` script. You can search for packages considered 'bloatware' for your smartphone model in the XDA forums and in other parts of the internet. Experiment with care!
+If you want to add packages to debloat, write the name of each package line by line in a ```.txt``` file inside the ```dbloat``` directory and it will show up as an option the next time you execute the ```dbloat.py``` script. 
+
+You can search for packages considered 'bloatware' for your smartphone model in the XDA forums and in other parts of the internet. Experiment with care!
