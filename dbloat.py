@@ -50,7 +50,7 @@ def index_belongsto(idx, list_):
 
     try:
         idx = int(idx)
-    except ValueError:
+    except (ValueError, TypeError) as e:
         idx = -1
 
     return False if (idx < 0) or (idx >= len(list_)) else True
