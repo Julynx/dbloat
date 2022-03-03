@@ -33,8 +33,8 @@ python3 dbloat.py
 <br>
 
 ## Advanced Features
-This script comes with options to remove MIUI Bloatware, Google Bloatware and more. The included files are mostly suited for debloating a Xiaomi phone, but you can easily add packages to the debloat lists or create a new one for your phone model.
+This script comes with options to remove MIUI Bloatware, Google Bloatware, and more. The included files are mostly suited for debloating a Xiaomi phone, but you can easily add packages to the debloat lists or create a new one for your phone model.
 
-If you want to add packages to debloat, write the name of each package line by line in a ```.txt``` file inside the ```dbloat``` directory and it will show up as an option the next time you run the ```dbloat.py``` script. 
+If you want to add packages to debloat, write the name of each package line by line in a ```.txt``` file inside the ```dbloat``` directory. It will show up as an option the next time you run the ```dbloat.py``` script. 
 
 You can search for packages considered 'bloatware' for your smartphone model in the [XDA forums](https://www.xda-developers.com/).
