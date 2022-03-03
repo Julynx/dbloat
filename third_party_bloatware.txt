@@ -1,0 +1,17 @@
+com.tencent.soter.soterserver
+com.netflix.partner.activation
+com.netflix.mediaclient
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+com.facebook.katana
+cn.wps.xiaomi.abroad.lite
+com.zhiliaoapp.musically
+ru.yandex.searchplugin
+com.yandex.zen
+com.ebay.mobile
+com.ebay.carrier
+ru.ozon.app.android
+com.alibaba.aliexpresshd
+sg.bigo.live
+ru.auto.ara

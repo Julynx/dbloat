@@ -1,0 +1,16 @@
+#com.google.android.gms                 Breaks Google Play Services
+com.google.android.apps.docs
+com.google.android.apps.maps
+com.google.android.apps.photos
+com.google.android.apps.tachyon
+com.google.android.apps.subscriptions.red
+com.google.android.music
+com.google.android.videos
+com.google.android.feedback
+com.google.android.youtube
+com.google.android.gm
+com.google.android.gms.location.history
+com.google.ar.lens
+com.google.android.googlequicksearchbox
+com.google.android.apps.wellbeing
+com.google.android.apps.googleassistant
