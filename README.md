@@ -27,9 +27,14 @@ Proceed ***at your own risk***!
 To download and use this script, open a terminal (CTRL + T) and execute the following commands:
 ```
 git clone https://github.com/Julynx/dbloat
+```
+```
 cd dbloat
+```
+```
 python3 dbloat.py
 ```
+
 <br>
 
 ## Advanced Features
