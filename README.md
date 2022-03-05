@@ -34,7 +34,6 @@ cd dbloat
 ```
 python3 dbloat.py
 ```
-
 <br>
 
 ## Advanced Features
