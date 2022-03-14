@@ -1,6 +1,7 @@
 # com.mi.android.globallauncher             Breaks launcher
 # com.miui.global.packageinstaller          Not tested
 # com.miui.miwallpaper                      Breaks wallpaper
+# com.xiaomi.misettings                     Breaks refresh rate settings menu
 com.mi.android.globalFileexplorer
 com.mi.android.globalminusscreen
 com.mi.globalbrowser
@@ -45,7 +46,6 @@ com.xiaomi.joyose
 com.xiaomi.micloud.sdk
 com.xiaomi.midrop
 com.xiaomi.miplay_client
-com.xiaomi.misettings
 com.xiaomi.payment
 com.xiaomi.powerchecker
 com.xiaomi.scanner
