@@ -44,3 +44,11 @@ com.android.calllogbackup
 com.android.traceur
 com.sec.android.AutoPreconfig
 com.sec.android.service.health
+com.android.inputmethod.latin
+com.android.partnersetup
+com.android.egg
+com.android.carrierdefaultapp
+com.android.companiondevicemanager
+com.android.htmlviewer
+com.android.simappdialog
+com.fingerprints.sensortesttool

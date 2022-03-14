@@ -1,7 +1,8 @@
 # com.mi.android.globallauncher             Breaks launcher
-# com.miui.global.packageinstaller          Not tested
 # com.miui.miwallpaper                      Breaks wallpaper
 # com.xiaomi.misettings                     Breaks refresh rate settings menu
+# com.android.thememanager                  Breaks ringtone selector
+# com.miui.global.packageinstaller          Not tested
 com.mi.android.globalFileexplorer
 com.mi.android.globalminusscreen
 com.mi.globalbrowser
@@ -56,7 +57,6 @@ com.xiaomi.mipicks
 com.mi.global.pocobbs
 com.micredit.in
 com.duokan.phone.remotecontroller
-com.android.thememanager
 cn.wps.moffice_eng.xiaomi.lite
 com.xiaomi.macro
 com.mi.health
@@ -113,3 +113,4 @@ com.miui.miwallpaper.miweatherwallpaper
 com.miui.miwallpaper.snowmountain
 com.miui.miwallpaper.geometry
 com.miui.miwallpaper.saturn
+com.qti.confuridialer

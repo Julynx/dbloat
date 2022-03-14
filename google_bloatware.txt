@@ -42,3 +42,5 @@ com.google.android.setupwizard
 com.google.android.apps.wallpaper
 com.google.android.projection.gearhead
 com.google.android.marvin.talkback
+com.google.android.apps.work.oobconfig
+com.google.android.onetimeinitializer
