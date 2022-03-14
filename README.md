@@ -43,7 +43,7 @@ If you want to add packages to debloat, write the name of each package line by l
 
 You can search for packages considered 'bloatware' for your smartphone model in the [XDA forums](https://www.xda-developers.com/).
 
-If you want to reinstall or get back an uninstalled app, you can do it by executing:
+To reinstall an uninstalled app, execute:
 ```
 adb shell cmd package install-existing <package_name>
 ```
