@@ -1,4 +1,7 @@
-#com.google.android.gms                 Breaks Google Play Services
+# com.google.android.gms                    Breaks Google Play Services
+# com.mi.android.globallauncher             Breaks launcher
+# com.miui.global.packageinstaller          Not tested
+# com.miui.miwallpaper                      Breaks wallpaper
 com.google.android.gms.location.history
 com.google.android.apps.docs
 com.google.android.apps.maps
@@ -42,9 +45,6 @@ com.google.android.setupwizard
 com.google.android.apps.wallpaper
 com.google.android.projection.gearhead
 com.google.android.marvin.talkback
-#com.mi.android.globallauncher          Breaks launcher
-#com.miui.global.packageinstaller       Not tested
-# com.miui.miwallpaper
 com.mi.android.globalFileexplorer
 com.mi.android.globalminusscreen
 com.mi.globalbrowser

@@ -1,4 +1,4 @@
-#com.google.android.gms                 Breaks Google Play Services
+# com.google.android.gms                    Breaks Google Play Services
 com.google.android.gms.location.history
 com.google.android.apps.docs
 com.google.android.apps.maps
