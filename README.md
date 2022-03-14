@@ -42,3 +42,9 @@ This script comes with options to remove MIUI Bloatware, Google Bloatware, and m
 If you want to add packages to debloat, write the name of each package line by line in a ```.txt``` file inside the ```dbloat``` directory. It will show up as an option the next time you run the ```dbloat.py``` script. 
 
 You can search for packages considered 'bloatware' for your smartphone model in the [XDA forums](https://www.xda-developers.com/).
+
+If you want to reinstall or get back an uninstalled app, you can do it by executing:
+```
+adb shell cmd package install-existing <package_name>
+```
+
