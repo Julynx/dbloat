@@ -249,7 +249,6 @@ com.android.calllogbackup
 com.android.traceur
 com.sec.android.AutoPreconfig
 com.sec.android.service.health
-# Desde aqui
 com.android.inputmethod.latin
 com.android.partnersetup
 com.android.egg
