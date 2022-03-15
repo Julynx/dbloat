@@ -67,19 +67,19 @@ def read_file_lines(filename):
 def adb_prepare_bulk_execute(command, arg_list, loud=False):
 
     # Construct and add each command to the command string
-    cmd_str = ""
+    cmd_lst = []
     for arg in arg_list:
         if not arg.startswith("#"):
-            partial_str = f"{command} {arg}"
+            partial_str = f"adb shell {command} {arg}"
             if loud:
                 print(partial_str, end="")
                 time.sleep(0.1)
-            cmd_str += partial_str
+            cmd_lst.append(partial_str)
 
     # Add command to close the ADB shell
-    cmd_str += "exit\n"
+    cmd_lst.append("adb shell exit")
 
-    return cmd_str
+    return cmd_lst
 
 
 def build_file_dict():
@@ -149,10 +149,14 @@ Prerequisites:
     selected_file = file_dict[selected]
 
     # Read the file and get the list of packages to uninstall
-    print("Running commands from file:", selected_file)
+    print("Running commands from file:", selected_file + "\n")
     cmd_list = read_file_lines(selected_file)
-    command_str = adb_prepare_bulk_execute(uninstall_cmd, cmd_list)
-    os.system(f"adb shell '{command_str}'")
+    command_lst = adb_prepare_bulk_execute(uninstall_cmd, cmd_list)
+
+    for cmd in command_lst:
+        print(">> Uninstalling:", cmd.split(" ")[-1], end="")
+        os.system(cmd)
+        print()
 
 
 if __name__ == "__main__":

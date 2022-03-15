@@ -4,6 +4,20 @@
 # com.xiaomi.misettings                     Breaks refresh rate settings menu
 # com.android.thememanager                  Breaks ringtone selector
 # com.miui.global.packageinstaller          Not tested
+# com.qti.confuridialer
+# com.qti.qualcomm.datastatusnotification
+# com.qti.service.colorservice
+# com.qti.snapdragon.qdcm_ff
+# com.qti.xdivert
+# com.qualcomm.atfwd
+# com.qualcomm.embms
+# com.qualcomm.qcrilmsgtunnel
+# com.qualcomm.dynamicddsservice
+# com.qualcomm.qti.lpa
+# com.qualcomm.qti.qtisystemservice
+# com.qualcomm.qti.remoteSimlockAuth
+# com.qualcomm.qti.uim
+# com.qualcomm.wfd.service
 com.google.android.gms.location.history
 com.google.android.apps.docs
 com.google.android.apps.maps
@@ -235,6 +249,7 @@ com.android.calllogbackup
 com.android.traceur
 com.sec.android.AutoPreconfig
 com.sec.android.service.health
+# Desde aqui
 com.android.inputmethod.latin
 com.android.partnersetup
 com.android.egg
@@ -245,17 +260,3 @@ com.android.simappdialog
 com.fingerprints.sensortesttool
 com.google.android.apps.work.oobconfig
 com.google.android.onetimeinitializer
-com.qti.confuridialer
-com.qti.qualcomm.datastatusnotification
-com.qti.service.colorservice
-com.qti.snapdragon.qdcm_ff
-com.qti.xdivert
-com.qualcomm.atfwd
-com.qualcomm.embms
-com.qualcomm.qcrilmsgtunnel
-com.qualcomm.dynamicddsservice
-com.qualcomm.qti.lpa
-com.qualcomm.qti.qtisystemservice
-com.qualcomm.qti.remoteSimlockAuth
-com.qualcomm.qti.uim
-com.qualcomm.wfd.service
